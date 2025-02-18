@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← Back</a>
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-item">
+                <h3>Commissioned by PartyGamy in Amino</h3>
+                <div class="project-image">
+                    <img src="img/01.png" alt="FairLady" onclick="openLightbox(this.src)">
+                </div>
+            </div>
+            
+            <div class="project-item">
+                <h3>Entry for Dislyte Drawing Competition</h3>
+                <div class="project-image">
+                    <img src="img/02.png" alt="Odin" onclick="openLightbox(this.src)">
+                </div>
+            </div>
+            
+            <div class="project-item">
+                <h3>Tribute page for a late Brother</h3>
+                <div class="project-image">
+                    <a href="https://guiniguinm.github.io/CC14_TributePage/" target="_blank">
+                        <img src="img/03.jpg" alt="chris">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="project-item">
+                <h3>Fanmade Survey For The Game; Twisted Wonderland</h3>
+                <div class="project-image">
+                    <a href="https://guiniguinm.github.io/Survey/" target="_blank">
+                        <img src="img/4.png" alt="Survey">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="" alt="enlarged image">
+    </div>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

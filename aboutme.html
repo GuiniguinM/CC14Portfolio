@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← Back</a>
+        <img src="img/1.jpg" alt="me" id="me" onclick="openLightbox()">
+        <br>
+        <h2>About Me</h2>
+        <h1>Greetings, I'm Mylene</h1>
+        <p>Hi! I'm Mylene. A student from UC currently taking Web Dev course. Having a little background in python, java as well as html</p>
+        
+        <div class="content-section">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>Archery</li>
+                <li>Skating</li>
+                <li>Drawing</li>
+                <li>Reading</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h3>Likes</h3>
+            <ul>
+                <li>Egg pies</li>
+                <li>Black tea</li>
+                <li>Dark coffee</li>
+                <li>Exotic animals</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h3>Dislikes</h3>
+            <ul>
+                <li>Cake icing</li>
+                <li>Chihuahua</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h3>Pets</h3>
+            <ul>
+                <li>Snake</li>
+                <li>Scorpion</li>
+                <li>Cat</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="lightbox" onclick="closeLightbox()">
+        <img src="img/1.jpg" alt="me large">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
